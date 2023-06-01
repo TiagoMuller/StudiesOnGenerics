@@ -23,15 +23,19 @@ public class Program {
 		System.out.print("How many students for course B: ");
 		int n2 = sc.nextInt();
 		for(int i = 0; i < n2; i++) {
-			cursoA.add(sc.nextInt());
+			cursoB.add(sc.nextInt());
 		}
 		
 		System.out.print("How many students for course C: ");
 		int n3 = sc.nextInt();
 		for(int i = 0; i < n3; i++) {
-			cursoA.add(sc.nextInt());
+			cursoC.add(sc.nextInt());
 		}
 		
-		System.out.println("Total students: " +cursoA.size());
+		Set<Integer> total = new HashSet<>(cursoA);
+		total.addAll(cursoB);
+		total.addAll(cursoC);
+		
+		System.out.println("Total students: " +total.size());
 	}
 }
