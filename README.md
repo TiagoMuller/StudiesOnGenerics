@@ -3,7 +3,7 @@
 Este repositório contém vários projetos e estudos relacionados a Generics em Java. Os tópicos abordados incluem Set, Map, HashCode, Equals, TypeSafety, Interface Set, TreeSet e Interface Map.
 
 # Projetos:
-O repositório inclui os seguintes projetos:
+O repositório inclui alguns estudos e códigos sobre eexercicios propostos:
 
 # Generics Set: 
 Um projeto que demonstra o uso de Generics com a interface Set. Ele mostra como criar um Set de um tipo específico e realizar operações como adicionar elementos, remover elementos e verificar a existência de elementos.
